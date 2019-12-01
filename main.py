@@ -18,7 +18,7 @@ auth.set_access_token('1487072078-7WkhXqjR8GkMnajbmt5SCPasZhx3CXlGGfmTHm1', '3qi
 api = tweepy.API(auth)
 
 def tweet_formatter(tweet):
-    return '<div style="max-width:500px;padding:20px;border-radius:20px;border: 2px solid blue">' + tweet + '</div><br/><br/><br/>'
+    return '<div style="max-width:600px;padding:20px;border-radius:20px;border: 2px solid blue">' + tweet + '</div><br/><br/><br/>'
     
 def word_cloud_func(tweets):
     
